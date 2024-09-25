@@ -384,7 +384,7 @@ a:focus {
 .quote_btn-container .quote_btn {
   display: inline-block;
   padding: 5px 25px;
-  background-color: #f07b26;
+  background-color: #061b91;
   color: #ffffff;
   border-radius: 5px;
   -webkit-transition: all .3s;
@@ -393,7 +393,7 @@ a:focus {
 }
 
 .quote_btn-container .quote_btn:hover {
-  background-color: #e77829;
+  background-color: #061b91;
 }
 
 /*end header section*/
@@ -602,7 +602,7 @@ a:focus {
   top: 50%;
   width: 45px;
   height: 70%;
-  background-color: #f07b26;
+  background-color: #061b91;
   z-index: 3;
 }
 
@@ -638,7 +638,7 @@ a:focus {
 }**/
 .read-more, .read-less {
   display: inline-block;
-  background-color: #f58220; /* Adjust to your theme color */
+  background-color: #061b91; /* Adjust to your theme color */
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -648,11 +648,11 @@ a:focus {
 }
 
 .read-more:hover, .read-less:hover {
-  background-color: #e57310; /* Slightly darker for hover effect */
+  background-color: #061b91; /* Slightly darker for hover effect */
 }
 
 .about_section .detail-box a:hover {
-  background-color: #bc570d;
+  background-color: #061b91;
 }
 
 .project_section .heading_container {
