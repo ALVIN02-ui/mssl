@@ -65,22 +65,25 @@
         <div class="col-lg-4 col-md-5 offset-md-1">
           <div class="form_container">
             <form onsubmit="onSubmit(event)">
-              <div>
-                <input type="text" placeholder="Your Name" required>
+              <div class="form-group">
+                  <input name="name" type="text" class="form-control" placeholder="Your Name" required>
               </div>
-              <div>
-                <input type="text" placeholder="Phone Number" required>
+              <div class="form-group">
+                  <input name="email" type="email" class="form-control" placeholder="Your Email*" required>
               </div>
-              <div>
-                <input type="email" placeholder="Email" required>
+              <div class="form-group">
+                  <input name="phone" type="text" class="form-control" placeholder="Your Mobile Number*" required>
               </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" required>
+              <div class="form-group">
+                  <input name="subject" type="text" class="form-control" placeholder="Subject*" required>
               </div>
-              <div class="btn_box">
-                <input type="submit" value="Send Message" class="btn_box">
+              <div class="form-group">
+                  <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message*"></textarea>
               </div>
-            </form>
+              <div class="form-group">
+                  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+          </form>
           </div>
         </div>
         <div class="col-lg-7 col-md-6 px-0">
@@ -152,4 +155,3 @@
 </body>
 
 </html>
-ingia tu you should feel comfortable huku
