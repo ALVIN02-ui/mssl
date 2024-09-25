@@ -47,7 +47,7 @@ body {
 }
 
 .navbar-menu > a:hover {
-	color: #ff6347; /* Changes to Tomato color on hover */
+	color: #1d8d26; /* Changes to Tomato color on hover */
 }
 
 .navbar-menu {
@@ -60,7 +60,7 @@ body {
 }
 
 .navbar-menu > a {
-	color: white;
+	color: rgba(36, 8, 134, 0.829);
     font-weight: bold;
     word-spacing: 0.125rem;
 	font-size: 16px;
