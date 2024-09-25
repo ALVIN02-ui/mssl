@@ -15,8 +15,31 @@ section {
 body {
 	font-family: Arial, sans-serif;
 }
+ /* Page Loader CSS  */
+.page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.page-loader img {
+	width: 50px;
+	height: 50px;
+	animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+	0% {
+	  transform: rotate
+	}
+}
 /* Header Styling */
 .transparent-header {
 	position: absolute;
@@ -60,7 +83,7 @@ body {
 }
 
 .navbar-menu > a {
-	color: rgba(36, 8, 134, 0.829);
+	color: #061b91;
     font-weight: bold;
     word-spacing: 0.125rem;
 	font-size: 16px;
@@ -134,7 +157,7 @@ body {
     justify-content: space-between;
     align-items: center;
 	flex: 1 1 40%;
-	background: linear-gradient(45deg, #ff8c42, #ff616d);
+	background: linear-gradient(45deg, #061b91, #0c610cc4);
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
@@ -164,7 +187,7 @@ body {
 
 .about-content > h2,
 .vision-content h2 {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
@@ -212,7 +235,7 @@ body {
 }
 
 .read-more-btn {
-	background-color: #ff616d;
+	background-color: #0f9715;
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -223,7 +246,7 @@ body {
 }
 
 .read-more-btn:hover {
-	background-color: #b80c0c;
+	background-color: #061b91;
 }
 
 @media (max-width: 768px) {
@@ -308,19 +331,19 @@ p {
 }
 
 .more a {
-	color: #ff6347;
+	color:  #061b91;
 	text-decoration: none;
 	font-weight: bold;
 	transition: color 0.3s ease;
 }
 
 .more a:hover {
-	color: #ff4500;
+	color: #0c610cc4;
 }
 
 .see-more-btn {
 	display: inline-block;
-	background-color: #ff6347;
+	background-color: #0c610cc4;
 	color: white;
     margin: 25px 0 0 30px;
 	padding: 10px 20px;
@@ -330,7 +353,7 @@ p {
 }
 
 .see-more-btn:hover {
-	background-color: #ff4500;
+	background-color: #061b91;
 }
 
 
@@ -414,7 +437,7 @@ p {
 
 /* Submit button styling */
 .request-section .btn-primary {
-	background-color: #5cb85c;
+	background-color: #068a18;
 	color: #fff;
 	border: none;
 	font-size: 1.2rem;
@@ -425,7 +448,7 @@ p {
 
 /* Button hover effect */
 .request-section .btn-primary:hover {
-	background-color: #4cae4c;
+	background-color: #061b91;
 	cursor: pointer;
 }
 
@@ -485,6 +508,11 @@ p {
 /* partner slider */
 h2 {
 	text-align: center;
+	font-weight: bold;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+	position:relative;
 }
 /* Slider */
 

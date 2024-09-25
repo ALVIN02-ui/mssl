@@ -118,3 +118,21 @@ $(document).ready(function(){
         }]
     });
 });
+// Get the page loader element
+const pageLoader = document.querySelector('.page-loader');
+
+// Function to show the page loader
+function showPageLoader() {
+  pageLoader.style.display = 'flex';
+}
+
+// Function to hide the page loader
+function hidePageLoader() {
+  pageLoader.style.display = 'none';
+}
+
+// Show the page loader when the page loads
+document.addEventListener('DOMContentLoaded', showPageLoader);
+
+// Hide the page loader after 2 seconds
+setTimeout(hidePageLoader, 2000);
