@@ -587,9 +587,53 @@ h2 {
 }
 
 /* Footer */
-footer {
-	background: #333;
-	color: #fff;
-	text-align: center;
-	padding: 20px 0;
-}
+/* Footer styles */
+
+.ftco-footer {
+	background-color: #2e2d2d; /* dark background color */
+	padding: 50px 0; /* add some padding to the footer */
+	color: #fff; /* white text color */
+  }
+  
+  .ftco-footer-widget {
+	margin-bottom: 20px; /* add some margin to the widget */
+  }
+  
+  .ftco-footer-social {
+	list-style: none; /* remove bullet points from the list */
+	padding: 0; /* remove padding from the list */
+	margin: 0; /* remove margin from the list */
+  }
+  
+  .ftco-footer-social li {
+	display: inline-block; /* display list items inline */
+	margin-right: 20px; /* add some margin between list items */
+  }
+  
+  .ftco-footer-social a {
+	color: #fff; /* white text color for links */
+	text-decoration: none; /* remove underline from links */
+  }
+  
+  .ftco-footer-social a:hover {
+	color: #ccc; /* light gray text color on hover */
+  }
+  
+  .ftco-footer-social span {
+	font-size: 18px; /* increase font size for icons */
+  }
+  
+  .h3.email {
+	font-size: 18px; /* increase font size for email address */
+	font-weight: bold; /* bold font weight for email address */
+  }
+  
+  .ftco-footer-widget h2 {
+	font-size: 24px; /* increase font size for heading */
+	margin-bottom: 10px; /* add some margin below the heading */
+  }
+  
+  .copyright {
+	font-size: 14px; /* decrease font size for copyright notice */
+	color: #666; /* dark gray text color for copyright notice */
+  }
